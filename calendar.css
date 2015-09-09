@@ -1,0 +1,48 @@
+.calendar {
+
+}
+
+.calendar .header{
+    position:relative;
+    height:40px;
+}
+
+.calendar .header .header-left{
+    position:absolute;
+    top:0px;
+    left:10px;
+}
+
+.calendar .header .header-center{
+    text-align:center;
+    font-weight: bolder;
+    font-size:24px;
+    margin:10px auto;
+}
+
+.calendar .header .header-right{
+    position:absolute;
+    top:0px;
+    right:10px;
+}
+
+.calendar .body table {
+    border-collapse:collapse;
+}
+
+.calendar .body table th {
+    text-align:center;
+    border-top:1px solid #CECCC7;
+    border-bottom:1px solid #CECCC7;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.calendar .body table td{
+    text-align:center;
+    border-bottom:1px solid #F7F8F9;
+    padding-top:10px;
+    padding-bottom:10px;
+    color:#8FA4BE;
+    position:relative;
+}
